@@ -8,6 +8,9 @@ This implementation contains two parts: a Python addon for the NVDA screen reade
 ### NVDA Add-on
 
 * Move the folder `NVDAPlugin` into your NVDA addons directory — `userConfig\addons` in case of a portable NVDA, `%appdata%\nvda\addons` in case of a system install — and (re)start NVDA.
+* Configure NVDA to use the Synthesizer named "Capture Speech". You can do this either by:
+	* Pressing NVDA+Control+S; or
+	* navigating from the NVDA menu to "Preferences" -> "Settings", selecting "Speech" in the "Categories:" list, and pressing the "Change..." button under "Synthesizer".
 * A http server should be available at `localhost:8765`.
 
 ### Golang Server
