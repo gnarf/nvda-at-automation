@@ -2,9 +2,9 @@ package command
 
 const (
 	NewSessionCommandMethod           = "session.new"
-	GetSettingsCommandMethod          = "nvda:settings.getSettings"
-	GetSupportedSettingsCommandMethod = "nvda:settings.getSupportedSettings"
-	SetSettingsCommandMethod          = "nvda:settings.setSettings"
+	GetSettingsCommandMethod          = "settings.getSettings"
+	GetSupportedSettingsCommandMethod = "settings.getSupportedSettings"
+	SetSettingsCommandMethod          = "settings.setSettings"
 	UserIntentCommandMethod           = "interaction.userIntent"
 	PressKeysCommandName              = "pressKeys"
 )
